@@ -3,10 +3,6 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="">
-Executar o exercicio 001
 
- 
- https://denisrferro.github.io/html-css/exercicios/ex001/
- 
- https://denisrferro.github.io/html-css/exercicios/ex001/index.html
+Executar o exercicio 001 
+https://denisrferro.github.io/html-css/exercicios/ex001/index.html
