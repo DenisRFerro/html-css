@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    
+    border: 0px;
+    margin: 0px;
+}
+
+.root {
+    --fonte-header: 
+    --fonte-text: 'Sriracha', cursive;
+}
+
+header {
+    background-color: black;
+    padding: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+    color: white; 
+    font-family: 'Passion One', cursive;
+    font-size: 3em;    
+}
+
+.subtitle {
+    font-size: normal;
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    font-family:'Sriracha', cursive;
+}
+
+.bgbranco {
+    background-color: white;
+    height: 400px;
+    width: 250px;
+
+
+}
+
+.transparente1 {
+    height: 400px;
+    width: 250px;
+    background-color: rgba(169, 169, 169, 0.288);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative
+}
+
+.bgflor {
+    
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    position: 
+}
+
+.transparente2 {
+    height: 400px;
+    width: 250px;
+    background-color: rgba(169, 169, 169, 0.288);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.bgcarta {
+    
+    
+    background-image: url(imagens/background002.jpg);
+    background-size: 100%;
+    position: 
+}
+
+footer {
+    color: white;
+}
