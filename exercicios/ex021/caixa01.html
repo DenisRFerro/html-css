@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 { /*box-level*/
+            background-color: lightgray;
+            /*box sizing*/
+            height: 300px;
+            width: 300px;
+
+           /* border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+             
+            shorthand 
+            */
+
+            border: 10px solid darkslategray;
+            
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+             
+            shorthand 
+            */
+
+            padding: 10px 10px 10px 10px;
+
+           /* margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+             
+            shorthand 
+            */ 
+            
+            margin: 20px 20px 40px 20px;
+            
+            /*outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+             
+            shorthand 
+            */
+
+            outline: 5px dashed salmon;
+        }
+        a { /*inline-level*/
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: red;*/
+
+            border: 10px solid red;
+
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            shorthand 
+            */
+
+            padding: 10px;
+        }
+        h2 {
+            background-color: lightgreen;
+            height: 30px;
+            width: 348px;
+            margin: auto;
+            padding: 20px 30px ;
+            border: 10px solid black;
+            outline: 5px solid blue;
+        }
+        /*display: inline; (tranforma um box-level em inline-level.)
+          display: block; (transforma um inline-level em box-level.)
+          padding: 10px (cria todos os lafos do padding com 10 px.)
+          padding: 10px 20px (cria top e bottom com 10px e cria left e right com 20px.)
+          margin: auto; (centraliza a caixa idenpendente da largura da tela(width.).)
+          */
+
+          code {
+              background-color: cornflowerblue;
+          }
+          
+          .next {
+              height: 20px;
+              width: 100px;
+              margin: 40px auto 10px auto;
+          }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também, são exemplos de box-level, mas os <a href="#"> links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+    <h2>Exemplo de box com <code >margin:auto;</code></h2>
+    <p class="next"><a href="caixa02.html">caixas02</a></p>
+</body>
+</html>
