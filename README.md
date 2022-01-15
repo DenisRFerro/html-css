@@ -4,5 +4,5 @@
 Projeto Android <br>
 https://denisrferro.github.io/repositorio-android/ <br>
 Projeto Cordel <br>
-https://denisrferro.github.io/html-css/desafios/desafio012/cordel <br>
+https://denisrferro.github.io/projeto-cordel/ <br>
 
