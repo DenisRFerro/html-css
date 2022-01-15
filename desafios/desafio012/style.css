@@ -66,38 +66,49 @@ section {
     font-size: 3vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 .bgbranco {
     background-color: white;
 }
 
 .transparente1 {
-    display: inline-block;
-    background-color: rgba(169, 169, 169, 0.288);
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative
+    display: inline-block;    
+    background-color: rgba(0, 0, 0, 0.514);
+    background-attachment: fixed;    
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    
 }
 
 .bgflor {    
     background-image: url(imagens/background001.jpg);
     background-size: cover;
+    background-position: right center;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.473);
+    background-attachment: fixed;   
  }
 
 .transparente2 {
     display: inline-block;    
-    background-color: rgba(169, 169, 169, 0.288);
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.514);
+    background-attachment: fixed;     
     position: relative;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    
 
 }
 
 .bgcarta {
-    
-    
+    background-attachment: fixed;       
     background-image: url(imagens/background002.jpg);
     background-size: cover;
-   
+    background-position: right center;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.473);
 }
 
 footer {
