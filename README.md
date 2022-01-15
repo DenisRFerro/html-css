@@ -3,8 +3,8 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-Projeto Android
-https://denisrferro.github.io/repositorio-android/
-Projeto Cordel
-https://denisrferro.github.io/html-css/desafios/desafio012/cordel
+Projeto Android <br>
+https://denisrferro.github.io/repositorio-android/ <br>
+Projeto Cordel <br>
+https://denisrferro.github.io/html-css/desafios/desafio012/cordel <br>
 
