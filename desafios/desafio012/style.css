@@ -10,24 +10,30 @@
     margin: 0px;
 }
 
-.root {
-    --fonte-header: 
-    --fonte-text: 'Sriracha', cursive;
+:root {
+    --fonte1:  'Passion One', cursive;
+    --fonte2: 'Sriracha', cursive;
+    --fonte3: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
     background-color: rgb(255, 255, 255);
-    font-family:'Sriracha', cursive;
+    font-family:var(--fonte2);
     min-height: 100vh;
+    
 }
 header {
     background-color: black;
     padding-top: 50px;
+    
+}
+header > h1 {
     font-variant: small-caps;
+    font-size: 10vw;
 }
 
 header > p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:var(--fonte3);
     padding-bottom: 50px;
 }
 
@@ -44,15 +50,8 @@ a:hover {
 .header {
     text-align: center;
     color: white; 
-    font-family: 'Passion One', cursive;
-    font-size: 3em;    
-}
-
-section {
-    padding: 10vh 0px 10vh 30px;
-    line-height: 2em;
+    font-family: var(--fonte1);
     
-
 }
 
 .subtitle {
@@ -61,47 +60,43 @@ section {
     color: white;
 }
 
-
-
+section {
+    padding: 10vh 0px 10vh 30px;
+    line-height: 2em;
+    font-size: 3vw;
+}
 
 .bgbranco {
     background-color: white;
-    height: 400px;
-    width: 400px;
-
-
 }
 
 .transparente1 {
-    
-    width: 200px;
+    display: inline-block;
     background-color: rgba(169, 169, 169, 0.288);
     background-attachment: fixed;
     background-size: cover;
     position: relative
 }
 
-.bgflor {
-    
+.bgflor {    
     background-image: url(imagens/background001.jpg);
     background-size: cover;
- 
-}
+ }
 
 .transparente2 {
-    height: 400px;
-    width: 250px;
+    display: inline-block;    
     background-color: rgba(169, 169, 169, 0.288);
     background-attachment: fixed;
     background-size: cover;
     position: relative;
+
 }
 
 .bgcarta {
     
     
     background-image: url(imagens/background002.jpg);
-    background-size: 100%;
+    background-size: cover;
    
 }
 
@@ -109,7 +104,7 @@ footer {
     color: white;
     background-color: black;
     font-size: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--fonte3);
     text-align: center;
     padding: 10px;
 }
