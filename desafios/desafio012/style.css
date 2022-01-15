@@ -6,7 +6,7 @@
 
 * {
     
-    border: 0px;
+    padding: 0px;
     margin: 0px;
 }
 
@@ -15,9 +15,20 @@
     --fonte-text: 'Sriracha', cursive;
 }
 
+body {
+    background-color: rgb(255, 255, 255);
+    font-family:'Sriracha', cursive;
+    min-height: 100vh;
+}
 header {
     background-color: black;
-    padding: 50px;
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
 }
 
 a {
@@ -37,31 +48,33 @@ a:hover {
     font-size: 3em;    
 }
 
+section {
+    padding: 10vh 0px 10vh 30px;
+    line-height: 2em;
+    
+
+}
+
 .subtitle {
     font-size: normal;
     text-align: center;
     color: white;
 }
 
-body {
-    background-color: rgb(255, 255, 255);
-}
 
-main {
-    font-family:'Sriracha', cursive;
-}
+
 
 .bgbranco {
     background-color: white;
     height: 400px;
-    width: 250px;
+    width: 400px;
 
 
 }
 
 .transparente1 {
-    height: 400px;
-    width: 250px;
+    height: ;
+    width: 200px;
     background-color: rgba(169, 169, 169, 0.288);
     background-attachment: fixed;
     background-size: cover;
@@ -94,4 +107,9 @@ main {
 
 footer {
     color: white;
+    background-color: black;
+    font-size: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px;
 }
