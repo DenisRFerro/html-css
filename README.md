@@ -26,11 +26,9 @@
  
  <h3>
     <a href="https://denisrferro.github.io/javascript/ex17/tabuada">Tabuada</a>
-</h3> 
+</h3>  
  
- 
- 
- /*<h3>
-  <a href=""></a>
- </h3>*/
+ <h3>
+  <a href="https://denisrferro.github.io/javascript/aula16ex/analisadordenumeros.html">Analisador de Números</a>
+ </h3>
 
