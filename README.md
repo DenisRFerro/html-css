@@ -14,6 +14,8 @@
     <a href="https://denisrferro.github.io/html-css/exercicios/ex023/tabela002.html">Tabelas</a>
 </h3>    
 
+    <h1>JavaScript</h1>
+    
  <h3>
     <a href="https://denisrferro.github.io//javascript/calculadora/index">Calculadora</a>
 </h3> 
