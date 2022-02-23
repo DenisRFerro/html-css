@@ -16,6 +16,21 @@
 
  <h1>JavaScript</h1>
     
- <h3>
+<h3>
     <a href="https://denisrferro.github.io//javascript/calculadora/index">Calculadora</a>
 </h3> 
+ 
+ <h3>
+    <a href="https://denisrferro.github.io/javascript/ex16/contador.html">Contador</a>
+</h3> 
+ 
+ <h3>
+    <a href="https://denisrferro.github.io/javascript/ex17/tabuada">Tabuada</a>
+</h3> 
+ 
+ 
+ 
+ /*<h3>
+  <a href=""></a>
+ </h3>*/
+
