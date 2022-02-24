@@ -17,7 +17,7 @@
  <h1>JavaScript</h1>
  
  <h3>
-    <a href="https://denisrferro.github.io//javascript/calculadora2/index">Calculadora</a>
+    <a href="https://denisrferro.github.io//javascript/calculadora2/index">Calculadora "Completa"</a>
 </h3> 
     
 <h3>
